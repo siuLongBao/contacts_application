@@ -45,8 +45,7 @@ const Card = ({ contact }) => {
         className="my-4 mx-auto w-64 max-w-xs bg-gradient-to-r bg-[#9a1a42] shadow-lg rounded-lg overflow-hidden cursor-pointer transition-transform hover:scale-105"
         onClick={() => setShowModal(true)}
       >
-        <div className="flex p-4 flex-col items-start">
-          <h3 className="text-white text-lg font-semibold whitespace-nowrap">{contact.id}</h3>
+        <div className="flex p-4 flex-col items-start justify-center h-full">
           <h2 className="text-white text-lg font-semibold whitespace-nowrap overflow-hidden overflow-ellipsis">
             {contact.name} 
           </h2>
