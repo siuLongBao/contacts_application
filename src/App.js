@@ -131,7 +131,7 @@ function App() {
           ) : (
             Object.entries(groupedData).map(([letter, contacts]) => (
               <div key={letter} className="mb-10">
-                <h2 className="text-2xl font-semibold text-[#9a1a42] mb-4">{letter}</h2>
+                <h2 className="text-2xl font-semibold text-teal-600 mb-4">{letter}</h2>
                 <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                   {contacts.map((contact, index) => (
                     <li key={index}>
